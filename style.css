@@ -1,0 +1,122 @@
+*{
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+header, footer, .btn{
+	background-color: #32618d;
+}
+
+body{
+	margin: auto;
+	display: block;
+	text-align: center;
+	height: 100%;
+}
+input{
+	border-radius: 5px;
+	text-align: center;
+	font-size: 10px;
+	margin: 10px;
+	width: 100%;
+	height: 30px;
+}
+
+.menuBar{
+	color:  #32618d;
+	font-size: 15px;
+	padding: 10px;
+	margin: 30px;
+	text-decoration:none;
+	float: right;
+}
+
+.menuBar:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.offer{
+	font-size: 20px;
+	margin: 10px;
+	padding-top: 10px;
+	color: #32618d;
+}
+
+.section{
+	width: 20%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	float: left;
+	border: solid 1px #cdcdcd;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.cont{
+	background-color: #A2D4F2;
+	color: white;
+}
+.btn{
+	color: white;
+	font-size: 20px;
+	height: 30px;
+	width: 120px;
+	border-radius: 5px;
+	margin-top: 10px;
+	float: right;
+}
+
+.btn:hover{
+	text-decoration: underline;
+	color: #14E414;
+}
+
+.text{
+	float: left;
+}
+
+
+
+footer{
+	color: #ecb60e;
+	padding: 20px;
+	font-size: 12px;
+}
+
+@media  screen and (max-width: 1000px){
+
+	.section {
+    width: 85%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    border: solid 1px #cdcdcd;
+    border-radius: 5px;
+    flex-direction: column;
+	}
+
+	.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	}
+
+	.box{
+		padding: 5px!important;
+		margin: 5px!important;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%!important;
+	}
+}
+
